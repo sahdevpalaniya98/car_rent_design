@@ -1,0 +1,89 @@
+.card {
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+.car-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.car-title:hover {
+    color: #d6230c;
+}
+
+.car-year {
+    color: gray;
+}
+
+.card-text {
+    margin-top: -5px;
+}
+
+.text-lable-1 {
+    color: #29a01e;
+    font-weight: 600;
+}
+
+.text-lable-2 {
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+li {
+    list-style-type: none;
+}
+
+.car-details{
+    margin-left: -10px;
+    margin-top: -2px;
+}
+.car-details ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+.icon-details{
+    display: flex;
+    gap: 15px;
+}
+
+.icon-list-text{
+    font-size:15px;
+}
+.car-details p{
+    margin-top: 5px;
+    margin-bottom: 0rem;
+}
+.price{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #00215e;
+}
+.car-rent-price{
+    display: flex;
+    gap: 10px;
+}
+.price-day{
+    color: gray;
+    padding-bottom: 6px;
+}
+.car-rent{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left:0px;
+    padding-right: 20px;
+}
+.car-rent-booking{
+    border: none;
+    background-color: #00215e;
+    color: white;
+    font-size: 15px;
+    margin-left: 52px;
+}
+.car-rent-booking:hover{
+    background-color: #d6230c;
+}
